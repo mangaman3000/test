@@ -179,8 +179,16 @@ function openDoor(field) {
         .thumbOpened
         {
             transform: rotateY(-90deg);
+            -webkit-transform: rotateY(-90deg);
+            -moz-transform:    rotateY(-90deg);
+            -ms-transform:     rotateY(-90deg);
+            -o-transform:      rotateY(-90deg);
             /*transform-origin: 8px;*/
             transition: .5s linear;
+            -webkit-transition: .5s linear;
+            -moz-transition:    .5s linear;
+            -ms-transition:     .5s linear;
+            -o-transition:      .5s linear;
         }
 
 
@@ -188,6 +196,10 @@ function openDoor(field) {
   100%{
     opacity:1;
     transform:rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform:    rotateY(0deg);
+    -ms-transform:     rotateY(0deg);
+    -o-transform:      rotateY(0deg);
   }
 }
 </style>
