@@ -98,13 +98,13 @@
 function openDoor(field) {
             var y = $(field).find(".door");
             var x = y.attr("class");
-            if (y.hasClass("thumbOpened")) {
-                y.removeClass("thumbOpened");
-            }
-            else {
+            //if (y.hasClass("thumbOpened")) {
+                //y.removeClass("thumbOpened");
+            //}
+            //else {
                 $(".thumb").removeClass("thumbOpened");
                 y.addClass("thumbOpened");
-            }
+            //}
         }
 </script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
